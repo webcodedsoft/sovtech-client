@@ -5,7 +5,7 @@ import App from './App';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/api/v1',
+  uri: 'https://sovtech-challenge-backend.herokuapp.com/api/v1',
   cache: new InMemoryCache(),
 });
 
