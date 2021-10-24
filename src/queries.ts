@@ -16,7 +16,7 @@ export const PEOPLES = gql`
 `;
 
 export const GET_PEOPLE_BY_NAME = gql`
-  query ExampleQuery($name: String!) {
+  query PEOPLEBYNAME($name: String!) {
     getPeopleByName(name: $name) {
       name
       height
